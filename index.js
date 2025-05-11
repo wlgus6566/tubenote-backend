@@ -28,6 +28,6 @@ app.post("/api/youtube-transcript", async (req, res) => {
   }
 });
 
-app.listen(4000, () => {
+app.listen(4000, "0.0.0.0", () => {
   console.log("🚀 서버 시작됨 👉 http://localhost:4000");
 });
